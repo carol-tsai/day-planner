@@ -1,41 +1,41 @@
-# day-planner
-
-### Resources
-https://api.jquery.com/click/
-https://getbootstrap.com/docs/4.0/layout/grid/
-https://getbootstrap.com/docs/4.0/utilities/colors/
-
+# Day Planner
 
 ## Description
 
-When handling sensitive information, it is important to protect our information using strong passwords. This application will generate a random, secure password given the inputs of password length and types you characters you want to include. The application will ask you for the parameters for your password using window prompts and confims. Using this application will help you to ensure that your information is protected with secure passwords.
+As a working professional, it is important to be able to track different tasks and events throughout the day in order to work well with your collegues and get tasks done in a timely fashion. This can be aided with a work day planner. This application is a day planner where you can input your events and tasks during regular business hours. Your plans will be saved in the browser so that you do not have to worry about keeping the application open. You can feel free to leave and return without fear of losing your plans.
 
 ### What I learned
 While doing this project I learned to get current dates and times using the moment.js API. I also got comfortable with using jQuery methods and Bootstrap classes to format the document.
 
 ## Usage
 
-The webpage can be found at [this link](https://carol-tsai.github.io/password-generator/)
+The webpage can be found at [this link](https://carol-tsai.github.io/day-planner/)
 
 Upon load the page, the header will display the current date. 
+![Screenshot with text work day scheduler and date](assets/images/date.png)
 
 When you scroll down, there will be a time table for regular business hours. The hours that are in the past will be colored gray, the current hour will be red, and the remaining hours in the workday will be green. 
+![Screenshot with planner with color coded boxes](assets/images/color.png)
 
 To enter something into the planner, click the colored box and type in your info. Click the save button to save your plans to your browser storage. Now when you return to the page, you planner will automatically be updated with your plans.
+![Screenshot with planner with text](assets/images/input.png)
+
 
 ## Credits
 
-Code for the index.html and stylesheet files was copied from UPenn LPS Coding Bootcamp course material.
+Skeleton code for the index.html and stylesheet files was copied from UPenn LPS Coding Bootcamp course material.
 
 ### Reference documents
 
-* [MDN Web Docs on window.alert()](https://developer.mozilla.org/en-US/docs/Web/API/Window/alert)
+* [jQuery Documentation](https://api.jquery.com/)
 
-* [MDN Web Docs on window.confirm()](https://developer.mozilla.org/en-US/docs/Web/API/Window/confirm)
+* [Moment.js Documentation](https://momentjs.com/docs/)
 
-* [MDN Web Docs on window.prompt()](https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt)
+* [Bootstrap documentation](https://getbootstrap.com/docs/4.0)
 
-* [MDN Web Docs on Math](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
+* [HTML data attributes](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes)
+
+
 
 
 ## How to Contribute
